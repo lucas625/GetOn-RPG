@@ -1,0 +1,7 @@
+coverage
+ipython
+ipdb
+pylint-django
+pylint-json2html
+mock
+-r requirements.txt
