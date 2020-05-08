@@ -1,0 +1,32 @@
+# -*- coding: utf-8 -*-
+
+"""Core app template model module."""
+
+from django.db import models
+
+from core.models.abstract_model import AbstractBasicModel
+
+
+models.CharField.register_lookup(models.functions.Length)
+
+
+class TemplateModel(AbstractBasicModel):
+    """
+    Template Model.
+    """
+    full_name = models.CharField(unique=True, max_length=150, null=True, verbose_name='Name')
+
+    def __str__(self):
+        """
+        :return str:
+        """
+        return self.full_name
+
+    class Meta:
+        """Template Model meta class."""
+        constraints = [
+            models.CheckConstraint(
+                check=models.Q(full_name__length__lte=150),
+                name='template-model-name-length'
+            ),
+        ]

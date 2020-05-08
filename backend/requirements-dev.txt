@@ -4,4 +4,5 @@ ipdb
 pylint-django
 pylint-json2html
 mock
+freezegun
 -r requirements.txt
