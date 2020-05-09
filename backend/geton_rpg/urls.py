@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+
+"""geton_rpg project urls module."""
+
 from django.contrib import admin
 from django.urls import path
 from django.conf.urls import include
@@ -12,6 +16,6 @@ urlpatterns = [
     path('api/', include(('core.urls'), namespace='core')),
     path('api/', include(ROUTER.urls))
 ]
-    
+
 urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
 urlpatterns += static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)

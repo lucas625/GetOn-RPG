@@ -1,3 +1,7 @@
+# -*- coding: utf-8 -*-
+
+"""geton_rpg project settings module."""
+
 import os
 from decouple import config
 
@@ -13,7 +17,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = config('SECRET_KEY', cast=str)
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = not (config('ENVIRONMENT', cast=str) == 'production')
+DEBUG = not config('ENVIRONMENT', cast=str) == 'production'
 
 ALLOWED_HOSTS = ['*']
 
