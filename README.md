@@ -4,6 +4,7 @@ Django template project.
 
 - [GetOn-RPG](#geton-rpg)
   - [Team](#team)
+  - [Management](#management)
   - [Requirements](#requirements)
   - [Installation](#installation)
     - [Windows Installation](#windows-installation)
@@ -39,6 +40,11 @@ Django template project.
 
 Project Manager: [Lucas Aurelio](https://github.com/lucas625)
 Developer: [Gabriel Moura](https://github.com/bibidam)
+Developer: [Gustavo Cesar](https://github.com/GustC)
+
+## Management
+
+[Trello board](https://trello.com/b/0RXpnfSH/geton-rpg)
 
 ## Requirements
 
