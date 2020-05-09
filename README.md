@@ -50,7 +50,8 @@ Developer: [Gustavo Cesar](https://github.com/GustC)
 
 - [Trello board](https://trello.com/b/0RXpnfSH/geton-rpg)
 
-- Discord server: GetOn-RPG
+- Discord server:
+    - GetOn-RPG
 
 ## Requirements
 
