@@ -262,7 +262,7 @@ Back-end linting must be done in the *backend/* folder.
 
     ```sh
     # Runs linting with pylint.
-    $ pylint --load-plugins=pylint_json2html,pylint_django geton_rpg core
+    $ pylint --load-plugins=pylint_json2html,pylint_django geton_rpg core users
     ```
 
 ## Code Guides
