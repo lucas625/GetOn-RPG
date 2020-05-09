@@ -1,6 +1,6 @@
 # GetOn-RPG
 
-[![Build Status](https://travis-ci.org/lucas625/GetOn-RPG.svg?branch=master)](https://travis-ci.org/lucas625/GetOn-RPG)[![codecov](https://codecov.io/gh/lucas625/GetOn-RPG/branch/master/graph/badge.svg)](https://codecov.io/gh/lucas625/GetOn-RPG)[![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f6f97679bb34721b9d07342163d211f)](https://www.codacy.com/manual/lucas625/GetOn-RPG?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lucas625/GetOn-RPG&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.org/lucas625/GetOn-RPG.svg?branch=master)](https://travis-ci.org/lucas625/GetOn-RPG) [![codecov](https://codecov.io/gh/lucas625/GetOn-RPG/branch/master/graph/badge.svg)](https://codecov.io/gh/lucas625/GetOn-RPG) [![Codacy Badge](https://api.codacy.com/project/badge/Grade/4f6f97679bb34721b9d07342163d211f)](https://www.codacy.com/manual/lucas625/GetOn-RPG?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=lucas625/GetOn-RPG&amp;utm_campaign=Badge_Grade)
 
 A website with Vue and Django developed by Get On My Level that aims to further the knowledge of the team by creating a RPG like game.
 
@@ -41,16 +41,21 @@ A website with Vue and Django developed by Get On My Level that aims to further 
 ## Team
 
 Project Manager: [Lucas Aurelio](https://github.com/lucas625)
+
 Developer: [Gabriel Moura](https://github.com/bibidam)
+
 Developer: [Gustavo Cesar](https://github.com/GustC)
 
 ## Management
 
-[Trello board](https://trello.com/b/0RXpnfSH/geton-rpg)
+- [Trello board](https://trello.com/b/0RXpnfSH/geton-rpg)
+
+- Discord server: GetOn-RPG
 
 ## Requirements
 
 - [Python 3.7](https://www.python.org/downloads/)
+
 - [Yarn](https://classic.yarnpkg.com/en/docs/install/#windows-stable)
 
 ## Installation
