@@ -215,10 +215,6 @@ It is important to always test the project before trying to create a pull reques
 
 Front-end tests must be executed on the *frontend/* folder.
 
-- Testing with jest:
-
-    ```$ yarn jest```
-
 #### Windows Back-end Tests
 
 Back-end tests must be executed on the *backend* folder.
