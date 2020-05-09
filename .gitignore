@@ -1,0 +1,34 @@
+# ----- General -----
+
+# Environment
+.env
+
+# Coverage cli plugin
+.coverage
+
+# Jetbrains IDE
+.idea
+
+# VS Code IDE
+.vscode
+
+# ----- Front-end -----
+
+# Node
+node_modules/
+
+# Yarn
+yarn-debug.log*
+yarn-error.log*
+
+# ----- Back-end -----
+
+# Python
+*.pyc
+
+# Virtualenv
+venv/
+
+# Django
+media/dynamic/
+db.sqlite3

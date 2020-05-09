@@ -1,0 +1,15 @@
+language: python
+python:
+  - "3.7"
+install:
+  - pip install -r requirements-dev.txt
+before_script:
+  - cd backend
+  - export SECRET_KEY='TEST'
+  - export ENVIRONMENT='development'
+script:
+  - run coverage run manage.py test --no-input --debug-mode -v 2
+  - run coverage html -d public/coverage
+  - run coverage report -m
+after_success:
+  - bash <(curl -s https://codecov.io/bash)
