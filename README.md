@@ -1,6 +1,6 @@
 # GetOn-RPG
 
-Django template project.
+A website with Vue and Django developed by GET On My Level that aims to further the knowledge of the team by creating a RPG like game.
 
 - [GetOn-RPG](#geton-rpg)
   - [Team](#team)
