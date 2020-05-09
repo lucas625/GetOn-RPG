@@ -317,6 +317,8 @@ In order to have a better code quality this projects follows **strictly** the co
 
   - Component names must start with `get`.
 
+  - If a component is unique then it should be named with `the`.
+
   - Components should be placed inside the `frontend/src/components` package.
 
   - Base components should be placed inside the `frontend/src/components/base` package without subdirectories and with `base` as the first word of its name.

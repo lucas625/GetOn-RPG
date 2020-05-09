@@ -1,6 +1,6 @@
 <template>
   <v-app id="app">
-    <get-navbar />
+    <get-navbar title="GetOn-RPG" />
     <v-content>
       <router-view />
     </v-content>
@@ -8,8 +8,7 @@
 </template>
 
 <script>
-import GetNavbar from '@/components/get-navbar'
-
+import GetNavbar from '@/components/get-the-navbar'
 export default {
   name: 'App',
   components: { GetNavbar }
