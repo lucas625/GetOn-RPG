@@ -4,7 +4,7 @@ import router from '@/plugins/vue-router'
 import vuetify from '@/plugins/vuetify'
 import store from '@/store/store'
 
-import '@/init/auto-load-base-components'
+import '@/init/register-global-components'
 
 Vue.config.productionTip = false
 require('dotenv').config()
