@@ -5,6 +5,7 @@
 from django.urls import path
 from django.conf.urls import include
 from rest_framework import routers
+from . import views
 
 
 ROUTER = routers.DefaultRouter()
@@ -12,5 +13,5 @@ ROUTER = routers.DefaultRouter()
 app_name = 'users'
 
 urlpatterns = [
-    path('', include(ROUTER.urls)),
+    path('{}/'.format(app_name), views.index, name='indexUser'),
 ]

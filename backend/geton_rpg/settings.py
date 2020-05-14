@@ -21,6 +21,8 @@ DEBUG = not config('ENVIRONMENT', cast=str) == 'production'
 
 ALLOWED_HOSTS = ['*']
 
+CSRF_COOKIE_SECURE = True
+
 
 # Application definition
 
