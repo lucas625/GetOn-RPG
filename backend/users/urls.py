@@ -13,5 +13,5 @@ ROUTER = routers.DefaultRouter()
 app_name = 'users'
 
 urlpatterns = [
-    path('{}/'.format(app_name), views.index, name='indexUser'),
+    path('api/{}/'.format(app_name), views.User.as_view(), name='indexUser'),
 ]
