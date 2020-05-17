@@ -1,17 +1,10 @@
-# -*- coding: utf-8 -*-
-
-"""Users app urls module."""
-
 from django.urls import path
 from django.conf.urls import include
-from rest_framework import routers
-from . import views
-
-
-ROUTER = routers.DefaultRouter()
+from users.views import User
 
 app_name = 'users'
 
 urlpatterns = [
-    path('api/{}/'.format(app_name), views.User.as_view(), name='indexUser'),
+    path('api/{}/'.format(app_name), User.as_view(), name='indexUser'),
+    path('api/{}/test/'.format(app_name), User.as_view(), name='indexUser'),
 ]
